@@ -1,5 +1,3 @@
-~~~Java
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -77,4 +75,3 @@ function showPicture(Var) {
 
 </body>
 </html>
-~~~
