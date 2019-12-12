@@ -55,9 +55,13 @@ Bob, you're up!
 This is your word!: g--str-p--c
 Would you like to spin the (w)heel or (s)olve the puzzle?
 w
-Wheel value: $0
+```
+<span style="background-color: #FFFF00">Wheel value: $0</span>
+```
 Lose a turn and all your cash! Next player...
-Bob's Purse: $0
+```
+<span style="background-color: #FFFF00">Bob's Purse: $0</span>
+```
 
 -------------------
 Jane, you're up!
