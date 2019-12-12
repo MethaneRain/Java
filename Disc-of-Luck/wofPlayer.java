@@ -40,7 +40,7 @@ public class wofPlayer
   
     public static void main(String[] args) 
     { 
-    	wofPlayer player = new wofPlayer("Fucktwat", 0); 
+    	wofPlayer player = new wofPlayer("Generic Name", 0); 
         System.out.println(player.toString()); 
     } 
 }
