@@ -11,7 +11,12 @@ My first programming language was Python and my first major project in Python wa
 <font size=16>There are numerous aspects of this game that I needed to stitch together and it has been challenging and fun.</font>
 
 * Bankrupt:
-```>>>
+```
+>>>
+
+Let's welcome our three players:
+Bob, Jane, and Samir
+
 -------------------
 Bob, you're up!
 
@@ -36,53 +41,9 @@ Response value: $300
 Bob's Purse: $4300
 [t, s]
 
--------------------
-Bob, you're up!
-
-This is your word!: ---st------
-Would you like to spin the (w)heel or (s)olve the puzzle?
-w
-Wheel value: $200
-Guess a letter r
-Response value: $200
-Bob's Purse: $4500
-[t, s, r]
-
--------------------
-Bob, you're up!
-
-This is your word!: ---str-----
-Would you like to spin the (w)heel or (s)olve the puzzle?
-w
-Wheel value: $600
-Guess a letter g
-Response value: $600
-Bob's Purse: $5100
-[t, s, r, g]
-
--------------------
-Bob, you're up!
-
-This is your word!: g--str-----
-Would you like to spin the (w)heel or (s)olve the puzzle?
-w
-Wheel value: $900
-Guess a letter c
-Response value: $900
-Bob's Purse: $6000
-[t, s, r, g, c]
-
--------------------
-Bob, you're up!
-
-This is your word!: g--str----c
-Would you like to spin the (w)heel or (s)olve the puzzle?
-w
-Wheel value: $500
-Guess a letter p
-Response value: $500
-Bob's Purse: $6500
-[t, s, r, g, c, p]
+.
+.
+.
 
 -------------------
 Bob, you're up!
@@ -95,6 +56,10 @@ Lose a turn and all your cash! Next player...
 Bob's Purse: $0
 
 -------------------
+Jane, you're up!
 
+This is your word!: g--str-p--c
+Would you like to spin the (w)heel or (s)olve the puzzle?
 
->>>```
+>>>
+```
