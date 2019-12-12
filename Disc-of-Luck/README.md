@@ -9,6 +9,9 @@ My first programming language was Python and my first major project in Python wa
 ---
 
 <font size=16>There are numerous aspects of this game that I needed to stitch together and it has been challenging and fun.</font>
+---
+
+<font size=16>Let's check out some features of the game:</font>
 
 * Bankrupt:
 ```
