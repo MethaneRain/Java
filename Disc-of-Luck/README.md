@@ -55,13 +55,10 @@ Bob, you're up!
 This is your word!: g--str-p--c
 Would you like to spin the (w)heel or (s)olve the puzzle?
 w
-```
 <mark>Wheel value: $0</mark>
-```
 Lose a turn and all your cash! Next player...
-```
 <mark>Bob's Purse: $0</mark>
-```
+
 
 -------------------
 Jane, you're up!
