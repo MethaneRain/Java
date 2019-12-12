@@ -56,11 +56,11 @@ This is your word!: g--str-p--c
 Would you like to spin the (w)heel or (s)olve the puzzle?
 w
 ```
-<span style="background-color: #FFFF00">Wheel value: $0</span>
+<mark>Wheel value: $0</mark>
 ```
 Lose a turn and all your cash! Next player...
 ```
-<span style="background-color: #FFFF00">Bob's Purse: $0</span>
+<mark>Bob's Purse: $0</mark>
 ```
 
 -------------------
