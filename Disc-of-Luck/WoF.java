@@ -57,6 +57,7 @@ public class WoF {
 	    String letter = ""; // initialize character
 	    String choice = ""; // initialize character
 	    String solve;
+			String vowel = "";
 			String Player;
 	    int purseTotal1 = 0;
 	    int purseTotal2 = 0;
@@ -121,7 +122,7 @@ public class WoF {
 	    	wheelVal = spin.spinWheel();
 				System.out.println("\nThis is your word!: " + String.join("", marks));
 
-				System.out.println("Would you like to spin the (w)heel or (s)olve the puzzle?");
+				System.out.println("Would you like to spin the (w)heel, (b)uy vowel, or (s)olve the puzzle?");
 
 				// -----   Set character to player's choice   -----//
 				choice = String.valueOf(in.next(".").charAt(0)); // need to understand better what is happening here...
@@ -144,6 +145,63 @@ public class WoF {
 					Player = Playerz[PlayerNum];
 				}
 			}
+
+			if (choice.contentEquals("b")) {
+
+				if (PlayerNum == 0) {
+	        		purseVal = player1Purse.updatePurse(0, purseTotal1,Player);
+				}
+				if (PlayerNum == 1) {
+					purseVal = player2Purse.updatePurse(0, purseTotal2,Player);
+				}
+				if (PlayerNum == 2) {
+					purseVal = player3Purse.updatePurse(0, purseTotal3,Player);
+				}
+
+				if (purseVal < 250) {
+					System.out.println("Sorry, you don't have enough money. :/");
+				}
+
+
+				if (purseVal >= 250) {
+
+					if (PlayerNum == 0) {
+		        		purseVal = player1Purse.updatePurse(-250, purseTotal1,Player);
+		        		purseTotal1 = purseVal;
+					}
+					if (PlayerNum == 1) {
+						purseVal = player2Purse.updatePurse(-250, purseTotal2,Player);
+						purseTotal2 = purseVal;
+					}
+					if (PlayerNum == 2) {
+						purseVal = player3Purse.updatePurse(-250, purseTotal3,Player);
+						purseTotal3 = purseVal;
+					}
+
+					System.out.println("Which vowel would you like? (a, e, i, o, u) ");
+					vowel = String.valueOf(in.next(".").charAt(0));
+
+					if (chosenLetters.contains(vowel) == true) {
+			        	System.out.print("You must've fallen asleep, that letter has been used. Next player!\n");
+					}
+
+					if (chosenLetters.contains(vowel) == false){
+						chosenLetters.add(vowel);
+
+					// -----   Check to see how many times the letter occurs and change dashes   -----//
+			        for (int i = 0; i < word.length; i++) {
+
+			            if(word[i].equals(vowel)){
+
+			                marks[i] = word[i]; // replace dashes with letters
+			            }
+			        }
+
+					}
+
+				}
+			}
+
 
 			////////////////////////////  Spin the wheel option for player    //////////////////////////////////////
 				if (choice.contentEquals("w")) {
