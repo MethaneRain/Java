@@ -12,7 +12,7 @@ My first programming language was Python and my first major project in Python wa
 
 ---
 
-<font size=16>The program runs through the command line with command line arguments. \nLet's check out some features of the game:</font>
+<font size=16>The program runs through the command line with command line arguments.<br>Let's check out some features of the game:</font>
 
 * Bankrupt:
 ```
